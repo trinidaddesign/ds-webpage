@@ -7,6 +7,10 @@ body {
     min-height: 100%;
     margin: 0;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+}
 .header {
     background-color: #1f2937;
     display: flex;
@@ -21,6 +25,21 @@ img {
     display: flex;
     gap: 16px;
     padding-right: 50px;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 95px;
+    background-color: #1f2937;
+}
+h1 {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+p {
+    color: whitesmoke;
 }
 
 button {
