@@ -17,7 +17,12 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 img {
+    width: 75%;
+    height: auto;
+}
+.headimage {
     border-radius: 25px;
 }
 
@@ -28,10 +33,17 @@ img {
 }
 .body {
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
     padding: 95px;
     background-color: #1f2937;
+}
+
+.rightbody {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 h1 {
     color: whitesmoke;
