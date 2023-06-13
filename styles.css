@@ -33,18 +33,12 @@ img {
 }
 .body {
     display: flex;
-    flex-shrink: 0;
     justify-content: center;
     align-items: center;
     padding: 95px;
     background-color: #1f2937;
 }
 
-.rightbody {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
 h1 {
     color: whitesmoke;
     font-weight: 700;
@@ -62,6 +56,16 @@ button {
 
 button:hover {
     background-color: blueviolet;
+}
+
+.rightbody {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightbody img {
+    border-radius: 25px;
 }
 
 .content {
@@ -121,4 +125,21 @@ figcaption {
     text-align:end;
     text-decoration: underline red;
     font-weight: 600;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    background-color:#1f2937;
+}
+
+.infotext,h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color:black;
 }
